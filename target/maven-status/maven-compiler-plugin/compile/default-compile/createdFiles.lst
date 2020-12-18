@@ -1,0 +1,17 @@
+com\yufeng\crud\bean\Employee.class
+com\yufeng\crud\service\DepartmentService.class
+com\yufeng\crud\bean\Department.class
+com\yufeng\crud\bean\EmployeeExample.class
+com\yufeng\crud\bean\Msg.class
+com\yufeng\crud\bean\EmployeeExample$GeneratedCriteria.class
+com\yufeng\crud\dao\EmployeeMapper.class
+com\yufeng\crud\controller\EmployeeController.class
+com\yufeng\crud\bean\EmployeeExample$Criterion.class
+com\yufeng\crud\bean\DepartmentExample$Criterion.class
+com\yufeng\crud\service\EmployeeService.class
+com\yufeng\crud\bean\DepartmentExample.class
+com\yufeng\crud\dao\DepartmentMapper.class
+com\yufeng\crud\bean\EmployeeExample$Criteria.class
+com\yufeng\crud\controller\DepartmentController.class
+com\yufeng\crud\bean\DepartmentExample$Criteria.class
+com\yufeng\crud\bean\DepartmentExample$GeneratedCriteria.class

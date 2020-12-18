@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.yufeng.crud.MvcTest" time="0.5" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\ideafile\ssm-crud"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\ideafile\ssm-crud"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\86137\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="E:\maven_work\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_111\bin;D:\ORACLE\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;E:\maven_work\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_111\jre\bin;E:\Git\setup\Git\cmd;C:\Users\86137\AppData\Local\Microsoft\WindowsApps;;E:\PyCharm 2019.3.3\bin;;E:\IntelliJ IDEA 2019.2\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="idea.version2019.3.3" value="true"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\86137"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="龙宇锋"/>
+    <property name="java.class.path" value="E:\maven_work\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.3 -s E:\maven_work\apache-maven-3.3.9\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\maven_work\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.yufeng.crud.MvcTest" name="testPage" time="0.5">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.yufeng.crud.MvcTest.testPage(MvcTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-err>ʮ���� 17, 2020 12:40:22 ���� org.springframework.test.context.web.WebTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+��Ϣ: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+ʮ���� 17, 2020 12:40:22 ���� org.springframework.test.context.web.WebTestContextBootstrapper getTestExecutionListeners
+��Ϣ: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@a5bd950, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4d18aa28, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@75390459, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7756c3cd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2313052e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2bd2b28e]
+ʮ���� 17, 2020 12:40:22 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [applicationContext.xml]
+ʮ���� 17, 2020 12:40:23 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from URL [file:src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml]
+ʮ���� 17, 2020 12:40:23 ���� org.springframework.web.context.support.GenericWebApplicationContext prepareRefresh
+��Ϣ: Refreshing org.springframework.web.context.support.GenericWebApplicationContext@565b064f: startup date [Thu Dec 17 00:40:23 CST 2020]; root of context hierarchy
+ʮ���� 17, 2020 12:40:24 ���� org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
+��Ϣ: Mapped URL path [/**] onto handler &apos;org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0&apos;
+ʮ���� 17, 2020 12:40:24 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/depts]}&quot; onto public com.yufeng.crud.bean.Msg com.yufeng.crud.controller.DepartmentController.getDepts()
+ʮ���� 17, 2020 12:40:24 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/emps]}&quot; onto public com.yufeng.crud.bean.Msg com.yufeng.crud.controller.EmployeeController.getEmpsWihtJson(java.lang.Integer)
+ʮ���� 17, 2020 12:40:24 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/checkuser]}&quot; onto public com.yufeng.crud.bean.Msg com.yufeng.crud.controller.EmployeeController.checkuser(java.lang.String)
+ʮ���� 17, 2020 12:40:24 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/emp/{ids}],methods=[DELETE]}&quot; onto public com.yufeng.crud.bean.Msg com.yufeng.crud.controller.EmployeeController.deleteEmp(java.lang.String)
+ʮ���� 17, 2020 12:40:24 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/emp/{id}],methods=[GET]}&quot; onto public com.yufeng.crud.bean.Msg com.yufeng.crud.controller.EmployeeController.getEmp(java.lang.Integer)
+ʮ���� 17, 2020 12:40:24 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/emp/{empId}],methods=[PUT]}&quot; onto public com.yufeng.crud.bean.Msg com.yufeng.crud.controller.EmployeeController.saveEmp(com.yufeng.crud.bean.Employee,javax.servlet.http.HttpServletRequest)
+ʮ���� 17, 2020 12:40:24 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+��Ϣ: Mapped &quot;{[/emp],methods=[POST]}&quot; onto public com.yufeng.crud.bean.Msg com.yufeng.crud.controller.EmployeeController.saveEmp(com.yufeng.crud.bean.Employee,org.springframework.validation.BindingResult)
+ʮ���� 17, 2020 12:40:24 ���� org.hibernate.validator.internal.util.Version &lt;clinit&gt;
+INFO: HV000001: Hibernate Validator 5.4.1.Final
+ʮ���� 17, 2020 12:40:25 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+��Ϣ: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@565b064f: startup date [Thu Dec 17 00:40:23 CST 2020]; root of context hierarchy
+ʮ���� 17, 2020 12:40:25 ���� org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+��Ϣ: Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@565b064f: startup date [Thu Dec 17 00:40:23 CST 2020]; root of context hierarchy
+ʮ���� 17, 2020 12:40:25 ���� org.springframework.mock.web.MockServletContext log
+��Ϣ: Initializing Spring FrameworkServlet &apos;&apos;
+ʮ���� 17, 2020 12:40:25 ���� org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+��Ϣ: FrameworkServlet &apos;&apos;: initialization started
+ʮ���� 17, 2020 12:40:25 ���� org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+��Ϣ: FrameworkServlet &apos;&apos;: initialization completed in 43 ms
+ʮ���� 17, 2020 12:40:25 ���� com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+��Ϣ: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -&gt; 3, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -&gt; 1hgery9aeu30jghtjkcn5|4215838f, debugUnreturnedConnectionStackTraces -&gt; false, description -&gt; null, driverClass -&gt; com.mysql.jdbc.Driver, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, identityToken -&gt; 1hgery9aeu30jghtjkcn5|4215838f, idleConnectionTestPeriod -&gt; 0, initialPoolSize -&gt; 3, jdbcUrl -&gt; jdbc:mysql://localhost:3306/ssm_crud, lastAcquisitionFailureDefaultUser -&gt; null, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 0, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 15, maxStatements -&gt; 0, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 3, numHelperThreads -&gt; 3, numThreadsAwaitingCheckoutDefaultUser -&gt; 0, preferredTestQuery -&gt; null, properties -&gt; {user=******, password=******}, propertyCycle -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, usesTraditionalReflectiveProxies -&gt; false ]
+</system-err>
+  </testcase>
+</testsuite>
